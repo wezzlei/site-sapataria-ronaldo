@@ -1,0 +1,10 @@
+.menu-navegacao {
+    width: 80%;
+    margin: auto;
+}
+
+.menu-navegacao ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
