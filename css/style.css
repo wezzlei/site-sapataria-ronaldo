@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 .menu-navegacao {
     width: 80%;
     margin: auto;
@@ -7,4 +8,7 @@
     display: flex;
     justify-content: space-evenly;
 }
-
+.sapataria-Ronaldo {
+    font-family: 'Lobster', cursive;
+    margin: 40px auto 30px 20px 20px;
+}
