@@ -1,14 +1,46 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif&display=swap');
+
 .menu-navegacao {
     width: 80%;
     margin: auto;
+    text-align: center;
+    background-color: rgb(67, 207, 200)
 }
 
 .menu-navegacao ul {
     display: flex;
     justify-content: space-evenly;
+    text-align: center;
+    color:rgb(196, 69, 196);
+    font-size:25px ;
 }
-.sapataria-Ronaldo {
+
+.titulo-pagina {
     font-family: 'Lobster', cursive;
     margin: 40px auto 30px 20px 20px;
+    color:rgb(155, 107, 107);
+    font-size:50px ;
+}
+
+.subtitulo-pagina {
+    font-family: 'Instrument', cursive;
+    margin: 40px auto 30px 20px 20px;
+    color:rgb(94, 93, 153);
+    font: size 30px;px ;
+}
+.subtitulo-sobrenos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+    color:rgb(112, 80, 68);
+    font-size:25px ;
+}
+.banner-superior {
+width:100%;
+height: 250px;
+object-fit: cover;
+object-position: 5px 20;
 }
