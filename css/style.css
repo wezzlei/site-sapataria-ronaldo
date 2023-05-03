@@ -5,8 +5,11 @@
 .menu-navegacao {
     width: 80%;
     margin: auto;
-    text-align: center;
-    background-color: rgb(67, 207, 200)
+    text-align: center; 
+    background-image:url(../img/sapato\ feminino.png) ;
+    min-width:100vw ;
+    min-height: 20vw;
+    /* background-color: rgb(67, 207, 200) */
 }
 
 .menu-navegacao ul {
@@ -15,6 +18,7 @@
     text-align: center;
     color:rgb(196, 69, 196);
     font-size:25px ;
+    list-style: none;
 }
 
 .titulo-pagina {
@@ -28,7 +32,7 @@
     font-family: 'Instrument', cursive;
     margin: 40px auto 30px 20px 20px;
     color:rgb(94, 93, 153);
-    font: size 30px;px ;
+    font-size: 30px;
 }
 .subtitulo-sobrenos {
     display: flex;
