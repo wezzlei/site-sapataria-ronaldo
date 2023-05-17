@@ -2,6 +2,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Instrument+Serif&display=swap');
 
+:root { 
+    --cor-principal: #8b4513;
+    --fonte-principal: 'Raleway',sans-serif;
+}
 .menu-navegacao {
     width: 80%;
     margin: auto;
@@ -22,7 +26,7 @@
 }
 
 .titulo-pagina {
-    font-family: 'Lobster', cursive;
+    font-family: var(--fonte-principal);
     margin: 40px auto 30px 20px 20px;
     color:rgb(155, 107, 107);
     font-size:50px ;
@@ -30,7 +34,7 @@
 }
 
 .subtitulo-pagina {
-    font-family: 'Instrument', cursive;
+    font-family: var(--fonte-principal);
     margin: 40px auto 30px 20px 20px;
     color:rgb(94, 93, 153);
     font-size: 30px;
@@ -61,7 +65,7 @@ object-position: 100% 100%;
 
 .categoria-produtos {
     font-size: 140%;
-    font-family: 'Raleway', sans-serif;
+    font-family: var(--fonte-principal);
     background-color: rgb(25, 37, 148);
     color: brown;
     padding-left: 20px;
@@ -78,4 +82,13 @@ object-position: 100% 100%;
     font-size:25px ;
     list-style: none;
     flex-wrap: nowrap;
+  }
+
+  .footer {
+    display: flex;
+    margin-top: 20px;
+    justify-content:center;
+    background-color: aqua;
+    color: rgb(14, 31, 31);
+    padding: 20px;
   }
