@@ -2,16 +2,21 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Instrument+Serif&display=swap');
 
-:root { 
+:root {
     --cor-principal: #8b4513;
-    --fonte-principal: 'Raleway',sans-serif;
+    --fonte-principal: 'Raleway', sans-serif;
 }
+
+.main {
+    width: 80%;
+}
+
 .menu-navegacao {
     width: 80%;
     margin: auto;
-    text-align: center; 
-    background-image:url(../img/sapato\ feminino.png) ;
-    min-width:100vw ;
+    text-align: center;
+    background-image: url(../img/sapato\ feminino.png);
+    min-width: 100vw;
     min-height: 20vw;
     /* background-color: rgb(67, 207, 200) */
 }
@@ -20,47 +25,50 @@
     display: flex;
     justify-content: space-evenly;
     text-align: center;
-    color:rgb(196, 69, 196);
-    font-size:25px ;
+    color: rgb(196, 69, 196);
+    font-size: 25px;
     list-style: none;
 }
 
 .titulo-pagina {
     font-family: var(--fonte-principal);
     margin: 40px auto 30px 20px 20px;
-    color:rgb(155, 107, 107);
-    font-size:50px ;
+    color: rgb(155, 107, 107);
+    font-size: 50px;
     text-align: center;
 }
 
 .subtitulo-pagina {
     font-family: var(--fonte-principal);
     margin: 40px auto 30px 20px 20px;
-    color:rgb(94, 93, 153);
+    color: rgb(94, 93, 153);
     font-size: 30px;
     text-align: center;
 }
+
 .subtitulo-sobrenos {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     text-align: center;
-    color:rgb(112, 80, 68);
-    font-size:25px ;
+    color: rgb(112, 80, 68);
+    font-size: 25px;
 }
+
 .banner-superior {
-width:100%;
-height: 250px;
-object-fit: cover;
-object-position: 5px 20;
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    object-position: 5px 20;
 }
 
 .padrao-de-todas-imagens {
-padding: top 5px;  
-width: 400px;
-height: 263px;
-object-fit: contain;
-object-position: 100% 100%;
+    padding: top 5px;
+    width: 20vw;
+    height:15vw ;
+    margin: 8px; 
+     /* object-fit: contain; 
+    /* object-position: 100% 100%;  */
 }
 
 .categoria-produtos {
@@ -72,23 +80,57 @@ object-position: 100% 100%;
     line-height: 3;
     margin: 50px 10px 10px 10px;
     flex-grow: nowrap;
-  }
+}
 
-  .container-justify-space-between {
+.container-justify-space-between {
     display: flex;
     justify-content: space-evenly;
     text-align: center;
-    color:rgb(196, 69, 196);
-    font-size:25px ;
+    color: rgb(196, 69, 196);
+    font-size: 25px;
     list-style: none;
-    flex-wrap: nowrap;
-  }
+    /* flex-wrap: nowrap; */
+}
 
-  .footer {
+.footer {
     display: flex;
     margin-top: 20px;
-    justify-content:center;
+    justify-content: center;
     background-color: aqua;
     color: rgb(14, 31, 31);
     padding: 20px;
-  }
+}
+
+@media screen and (max-width: 600px) {
+
+    .footer,
+    .banner-superior,
+    .categoria-produtos,
+    .container-justify-space-between,
+    .menu-navegacao,
+    .padrao-de-todas-imagens,
+    .subtitulo-pagina,
+    .subtitulo-sobrenos,
+    .titulo-pagina,
+    .main
+     {
+        background-color: blueviolet;
+    }
+}
+
+@media screen and (max-width: 900px) {
+
+    .footer,
+    .banner-superior,
+    .categoria-produtos,
+    .container-justify-space-between,
+    .menu-navegacao,
+    .padrao-de-todas-imagens,
+    .subtitulo-pagina,
+    .subtitulo-sobrenos,
+    .titulo-pagina,
+    .main
+     {
+        background-color: rgb(207, 190, 35);
+    }
+}
